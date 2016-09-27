@@ -20,14 +20,4 @@ function testMapConcurrent(){
 	});
 }
 
-function dummy(i, callback) {
-	setTimeout(function() {
-		// After 1 second, we callback with a result
-    	callback('dumb result')
-    }, 1000);
-}
-for (var i = 0; i < 10; i++) {
-	dummy(i, function(response) {
-		console.log("i = " + this.i + " , response = " + response);
-	}.bind({i: i} ))
-}  
+testMapConcurrent();
