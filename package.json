@@ -13,14 +13,17 @@
     "async",
     "parallel",
     "queue",
-    "n",
-    "task",
-    "in",
-    "parallel",
-    "n",
     "concurrent",
     "task"
   ],
-  "author": "Kundan",
-  "license": "MIT"
+  "author": "Kundan Kumar <kundan1302@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kundan1301/async-train.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kundan1301/async-train/issues"
+  },
+  "homepage": "https://github.com/kundan1301/async-train#readme"
 }
