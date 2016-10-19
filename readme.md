@@ -1,4 +1,5 @@
-### How to use:
+# How to use:
+
 ```javascript
 var train = require('./async-train/index.js');
 function publish(message,cb){
@@ -7,7 +8,7 @@ function publish(message,cb){
 	process.nextTick(cb);
 }
 ```
-### use of 'mapConcurrentLimit':
+### use of mapConcurrentLimit:
 
 ```javascript
 function main(){
