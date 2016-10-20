@@ -11,7 +11,7 @@ $ npm install async-train
 # How to use:
 
 ```javascript
-var train = require('./async-train/index.js');
+var train = require('async-train');
 function publish(message,cb){
 	// note that this function must be async
 	console.log(message);
