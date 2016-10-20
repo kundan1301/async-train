@@ -1,6 +1,4 @@
-## Run N number of async tasks in parallel. As soon as one task is completed it will automatically schedule the next async task. 
-
-##Hence, it always runs N number of async tasks in parallel.
+## Run N number of async tasks in parallel. As soon as one task is completed it will automatically schedule the next async task. Hence, it always runs N number of async tasks in parallel.
 
 #####Optimum CPU utilisation.
 
