@@ -3,7 +3,11 @@ Run N number of async tasks in parallel. As soon as one task is completed it wil
 
 Optimum CPU utilisation.
 
-## npm install async-train
+# Installation:
+
+```javascript
+$ npm install async-train
+```
 
 # How to use:
 
