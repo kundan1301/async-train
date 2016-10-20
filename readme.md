@@ -1,6 +1,8 @@
-## Run N number of async tasks in parallel. As soon as one task is completed it will automatically schedule the next async task. Hence, it always runs N number of async tasks in parallel.
+## Run N number of async tasks in parallel. As soon as one task is completed it will automatically schedule the next async task. 
 
-Optimum CPU utilisation.
+##Hence, it always runs N number of async tasks in parallel.
+
+#####Optimum CPU utilisation.
 
 # Installation:
 
@@ -20,6 +22,8 @@ function publish(message,cb){
 ```
 ### use of mapConcurrentLimit:
 mapConcurrentLimit takes array or objects as its first argument, second argument is limit and the third is async function on which all the objects are applied and the last one is callback  which returns all the results after completing all tasks. 
+
+
 mapConcurrentLimit executes N tasks in parallel where N is the limit as shown in example.
 
 ```javascript
@@ -54,6 +58,8 @@ function main(){
 
 ### use of concurrentCallLimit:
 concurrentCallLimit takes array of functions or tasks as its argument, second is limit , third is callback which returns all the results after completing all tasks. 
+
+
 concurrentCallLimit executes N tasks in parallel where N is the limit as shown in example.
 
 ```javascript
@@ -77,6 +83,8 @@ function main(){
 
 ### use of concurrentCall:
 concurrentCallLimit takes array of functions or tasks as its first argument, second argument is callback which returns all the results after completing all tasks. 
+
+
 concurrentCallLimit runs all tasks in parallel.
 
 ```javascript
