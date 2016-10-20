@@ -48,6 +48,7 @@ function runInParallelLimit(arr,limit,callback){
 	var numberOfFunctionReturned=0;
 	if(limit==-1)
 		limit=numberOfFunctionToEnvoke;
+	limit=Math.min(limit,keyQueue.length);
 	for(var i=0;i<limit;i++){
 		var key = keyQueue.pop();
 		if(key)
@@ -95,6 +96,7 @@ function runMapInParallelLimit(arr,limit,func,callback){
 	var numberOfFunctionReturned=0;
 	if(limit==-1)
 		limit=numberOfFunctionToEnvoke;
+	limit=Math.min(limit,keyQueue.length);
 	for(var i=0;i<limit;i++){
 		var key = keyQueue.pop();
 			evaluateFunction(key);
