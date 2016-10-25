@@ -1,6 +1,6 @@
   {
   "name": "async-train",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Run N number of async tasks in parallel. As soon as one task is completed it will automatically schedule the next async task. Hence, it always runs N number of async tasks in parallel.",
   "main": "index.js",
   "directories": {
