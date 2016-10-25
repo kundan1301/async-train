@@ -69,8 +69,6 @@ function runInParallelLimit(arr,limit,callback){
 					return;
 				numberOfFunctionReturned++;
 				toReturn[key]=data;
-				console.log('toReturn',toReturn);
-				console.log('data is',data);
 				var newKey = keyQueue.pop();
 				if(newKey) evaluateFunction(newKey);
 				else if(numberOfFunctionReturned==numberOfFunctionToEnvoke) return callback(null,toReturn);
